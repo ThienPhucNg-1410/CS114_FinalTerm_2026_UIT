@@ -1,0 +1,73 @@
+{
+  "version": "V1",
+  "method": "EMA",
+  "ema_span": 5,
+  "ema_features": [
+    "PTS",
+    "FG_PCT",
+    "FG3_PCT",
+    "FT_PCT",
+    "OREB",
+    "DREB",
+    "AST",
+    "STL",
+    "BLK",
+    "TOV"
+  ],
+  "diff_features": {
+    "EMA_PTS": "DIFF_PTS",
+    "EMA_FG_PCT": "DIFF_FG_PCT",
+    "EMA_FG3_PCT": "DIFF_FG3_PCT",
+    "EMA_FT_PCT": "DIFF_FT_PCT",
+    "EMA_OREB": "DIFF_OREB",
+    "EMA_DREB": "DIFF_DREB",
+    "EMA_AST": "DIFF_AST",
+    "EMA_STL": "DIFF_STL",
+    "EMA_BLK": "DIFF_BLK",
+    "EMA_TOV": "DIFF_TOV",
+    "CURRENT_WIN_PCT": "DIFF_WIN_PCT",
+    "WIN_STREAK": "DIFF_WIN_STREAK",
+    "REST_DAYS": "DIFF_REST_DAYS"
+  },
+  "team_features": [
+    "EMA_PTS",
+    "EMA_FG_PCT",
+    "EMA_FG3_PCT",
+    "EMA_FT_PCT",
+    "EMA_OREB",
+    "EMA_DREB",
+    "EMA_AST",
+    "EMA_STL",
+    "EMA_BLK",
+    "EMA_TOV",
+    "CURRENT_WIN_PCT",
+    "WIN_STREAK",
+    "REST_DAYS",
+    "IS_B2B"
+  ],
+  "feature_set": [
+    "DIFF_PTS",
+    "DIFF_FG_PCT",
+    "DIFF_FG3_PCT",
+    "DIFF_FT_PCT",
+    "DIFF_OREB",
+    "DIFF_DREB",
+    "DIFF_AST",
+    "DIFF_STL",
+    "DIFF_BLK",
+    "DIFF_TOV",
+    "DIFF_WIN_PCT",
+    "DIFF_WIN_STREAK",
+    "DIFF_REST_DAYS",
+    "HOME_IS_B2B",
+    "AWAY_IS_B2B"
+  ],
+  "label": "HOME_WIN",
+  "eval_train_seasons": [
+    "2021-22",
+    "2022-23",
+    "2023-24",
+    "2024-25"
+  ],
+  "eval_test_season": "2025-26"
+}
