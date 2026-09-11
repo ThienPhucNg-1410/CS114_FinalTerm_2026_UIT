@@ -15,7 +15,7 @@ Project gồm các phần chính:
 - `Demo/`: các file demo.
 - `code/`: các notebook và dữ liệu tổng hợp từ quá trình phát triển.
 
-Thư mục `CS114-DoAnCK/` và `CS114-FinalTerm/` là các bản lưu/snapshot của quá trình làm đồ án. Các thư mục ở root là phiên bản chính được dùng để chạy.
+Các thư mục ở root là phiên bản chính của project. Những bản snapshot cũ đã được loại bỏ để tránh trùng lặp và nhầm đường dẫn.
 
 ## 2. Mục tiêu và luồng xử lý
 
